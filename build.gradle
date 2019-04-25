@@ -34,7 +34,7 @@ dependencies {
 
 jar {
     manifest {
-        attributes("Main-Class": "io.github.lxgaming.executor.Main")
+        attributes("Main-Class": "nz.co.lolnet.executor.Main")
     }
 
     from {

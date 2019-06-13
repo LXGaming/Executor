@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 lolnet.co.nz
+ * Copyright 2019 Alex Thomson
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package nz.co.lolnet.executor.manager;
+package io.github.lxgaming.executor.manager;
 
-import nz.co.lolnet.executor.Executor;
-import nz.co.lolnet.executor.configuration.Config;
-import nz.co.lolnet.executor.configuration.category.ExecutionCategory;
-import nz.co.lolnet.executor.util.Reference;
-import nz.co.lolnet.servermanager.api.Platform;
-import nz.co.lolnet.servermanager.api.data.User;
-import nz.co.lolnet.servermanager.api.network.Packet;
-import nz.co.lolnet.servermanager.api.network.packet.CommandPacket;
-import nz.co.lolnet.servermanager.common.manager.PacketManager;
-import nz.co.lolnet.servermanager.common.util.Toolbox;
+import io.github.lxgaming.executor.Executor;
+import io.github.lxgaming.executor.configuration.Config;
+import io.github.lxgaming.executor.configuration.category.ExecutionCategory;
+import io.github.lxgaming.executor.util.Reference;
+import io.github.lxgaming.servermanager.api.Platform;
+import io.github.lxgaming.servermanager.api.data.User;
+import io.github.lxgaming.servermanager.api.network.Packet;
+import io.github.lxgaming.servermanager.api.network.packet.CommandPacket;
+import io.github.lxgaming.servermanager.common.manager.PacketManager;
+import io.github.lxgaming.servermanager.common.util.Toolbox;
 
 import java.util.List;
 

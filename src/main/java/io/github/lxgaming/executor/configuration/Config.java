@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 lolnet.co.nz
+ * Copyright 2019 Alex Thomson
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package nz.co.lolnet.executor.configuration;
+package io.github.lxgaming.executor.configuration;
 
-import nz.co.lolnet.executor.configuration.category.ExecutionCategory;
-import nz.co.lolnet.executor.configuration.category.RedisCategory;
-import nz.co.lolnet.servermanager.common.util.Toolbox;
+import io.github.lxgaming.executor.configuration.category.ExecutionCategory;
+import io.github.lxgaming.executor.configuration.category.RedisCategory;
+import io.github.lxgaming.servermanager.common.util.Toolbox;
 
 import java.util.List;
 import java.util.Map;

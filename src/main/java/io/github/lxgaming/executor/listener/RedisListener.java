@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 lolnet.co.nz
+ * Copyright 2019 Alex Thomson
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package nz.co.lolnet.executor.listener;
+package io.github.lxgaming.executor.listener;
 
 import com.google.gson.JsonObject;
-import nz.co.lolnet.executor.Executor;
-import nz.co.lolnet.executor.manager.ExecutionManager;
-import nz.co.lolnet.executor.util.Reference;
-import nz.co.lolnet.servermanager.common.manager.ServiceManager;
-import nz.co.lolnet.servermanager.common.util.Toolbox;
+import io.github.lxgaming.executor.Executor;
+import io.github.lxgaming.executor.manager.ExecutionManager;
+import io.github.lxgaming.executor.util.Reference;
+import io.github.lxgaming.servermanager.common.manager.ServiceManager;
+import io.github.lxgaming.servermanager.common.util.Toolbox;
 import redis.clients.jedis.JedisPubSub;
 
 public class RedisListener extends JedisPubSub {

@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 lolnet.co.nz
+ * Copyright 2019 Alex Thomson
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package nz.co.lolnet.executor.service;
+package io.github.lxgaming.executor.service;
 
-import nz.co.lolnet.executor.Executor;
-import nz.co.lolnet.executor.configuration.Config;
-import nz.co.lolnet.executor.listener.RedisListener;
-import nz.co.lolnet.executor.util.Reference;
-import nz.co.lolnet.servermanager.api.ServerManager;
-import nz.co.lolnet.servermanager.common.manager.ServiceManager;
-import nz.co.lolnet.servermanager.common.service.RedisService;
-import nz.co.lolnet.servermanager.common.util.Toolbox;
+import io.github.lxgaming.executor.Executor;
+import io.github.lxgaming.executor.configuration.Config;
+import io.github.lxgaming.executor.listener.RedisListener;
+import io.github.lxgaming.executor.util.Reference;
+import io.github.lxgaming.servermanager.api.ServerManager;
+import io.github.lxgaming.servermanager.common.manager.ServiceManager;
+import io.github.lxgaming.servermanager.common.service.RedisService;
+import io.github.lxgaming.servermanager.common.util.Toolbox;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;

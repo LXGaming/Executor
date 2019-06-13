@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 lolnet.co.nz
+ * Copyright 2019 Alex Thomson
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package nz.co.lolnet.executor.configuration;
+package io.github.lxgaming.executor.configuration;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import nz.co.lolnet.executor.Executor;
-import nz.co.lolnet.servermanager.common.util.Toolbox;
+import io.github.lxgaming.executor.Executor;
+import io.github.lxgaming.servermanager.common.util.Toolbox;
 
 import java.io.Reader;
 import java.io.Writer;

@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 lolnet.co.nz
+ * Copyright 2019 Alex Thomson
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package nz.co.lolnet.executor;
+package io.github.lxgaming.executor;
 
-import nz.co.lolnet.executor.util.Reference;
-import nz.co.lolnet.servermanager.api.Platform;
-import nz.co.lolnet.servermanager.api.ServerManager;
-import nz.co.lolnet.servermanager.api.configuration.Config;
-import nz.co.lolnet.servermanager.api.network.NetworkHandler;
-import nz.co.lolnet.servermanager.api.network.Packet;
-import nz.co.lolnet.servermanager.api.util.Logger;
-import nz.co.lolnet.servermanager.common.manager.PacketManager;
-import nz.co.lolnet.servermanager.common.util.LoggerImpl;
+import io.github.lxgaming.executor.util.Reference;
+import io.github.lxgaming.servermanager.api.Platform;
+import io.github.lxgaming.servermanager.api.ServerManager;
+import io.github.lxgaming.servermanager.api.configuration.Config;
+import io.github.lxgaming.servermanager.api.network.NetworkHandler;
+import io.github.lxgaming.servermanager.api.network.Packet;
+import io.github.lxgaming.servermanager.api.util.Logger;
+import io.github.lxgaming.servermanager.common.manager.PacketManager;
+import io.github.lxgaming.servermanager.common.util.LoggerImpl;
 
 import java.util.Optional;
 

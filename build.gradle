@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     compile("com.google.code.gson:gson:2.8.5")
-    compile("io.github.lxgaming:servermanager-common:2.1.8")
+    compile("io.github.lxgaming:servermanager-common:2.1.9")
     annotationProcessor("org.apache.logging.log4j:log4j-core:2.11.2")
     compile("org.apache.logging.log4j:log4j-core:2.11.2")
     compile("org.apache.logging.log4j:log4j-slf4j-impl:2.11.2")

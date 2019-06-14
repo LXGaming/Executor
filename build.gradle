@@ -16,6 +16,10 @@ configurations {
 
 repositories {
     jcenter()
+    maven {
+        name = "lxgaming"
+        url = "https://dl.bintray.com/lxgaming/maven"
+    }
 }
 
 dependencies {
